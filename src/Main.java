@@ -18,5 +18,12 @@ public class Main {
             System.out.println( " Сегодня пятница " + n +" число. Необходимо подготовить отчет");
         }
 
+        // Задание 3
+        for (int year = 0; year < 2122; year = year + 79) {
+            if (year >= 1822 && year < 2122) {
+                System.out.println(year);
+            }
+        }
+
     }
 }
