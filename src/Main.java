@@ -11,6 +11,12 @@ public class Main {
     for (int n = 10; n >= 1; n=n-1) {
             System.out.print(n + " ");
         }
+        System.out.println(" ");
+// Задание 2
+
+        for (int n = 6; n <= 31; n= n + 7) {
+            System.out.println( " Сегодня пятница " + n +" число. Необходимо подготовить отчет");
+        }
 
     }
 }
